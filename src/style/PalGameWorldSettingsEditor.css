@@ -1,0 +1,48 @@
+.pal-editor-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pal-form-row {
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.pal-label {
+  margin-bottom: 5px;
+}
+
+.pal-text,
+.pal-checkbox,
+.pal-select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.pal-textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.pal-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.pal-button:hover {
+  background-color: #45a049;
+}
